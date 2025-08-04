@@ -1,6 +1,6 @@
 # Modelo Simplificado INPE para Iniciação Científica
 
-Este repositório oferece um modelo LaTeX simplificado, adaptado a partir do template oficial **ModeloINPE_2022** do INPE (Instituto Nacional de Pesquisas Espaciais) sob licença Creative Commons CC BY 4.0. O objetivo é facilitar a elaboração de relatórios finais para alunos de iniciação científica, simplificando a estrutura mantendo a formatação acadêmica adequada.
+Este repositório oferece um modelo LaTeX simplificado, adaptado a partir do template oficial **ModeloINPE_2022** do INPE (Instituto Nacional de Pesquisas Espaciais) sob licença Creative Commons CC BY 4.0. O objetivo é facilitar a elaboração de relatórios finais para alunos de iniciação científica, simplificando a estrutura e mantendo a formatação acadêmica adequada.
 
 ---
 
@@ -14,16 +14,29 @@ Ou faça upload dos arquivos no Overleaf para edição online
 
 ### 2. Estrutura dos arquivos principais
 
-- `main.tex` — arquivo principal para editar o texto do relatório  
-- `bibliografia.bib` — arquivo com as referências bibliográficas  
+- `configuracao.tex` — insira título, autores, ano e demais dados iniciais do seu relatório  
+- `publicacao.tex` — arquivo principal que contém a estrutura do relatório, incluindo chamadas aos capítulos  
+- `docs/08_01_capitulo1.tex`, `docs/08_01_capitulo2.tex`, `docs/08_01_capitulo3.tex` — arquivos com o corpo do texto dividido por capítulos  
 - `docs/figuras/` — pasta recomendada para armazenar imagens usadas no relatório  
-- Outros arquivos correspondem a capas, folhas de aprovação e configuração do documento
-
+- `bib/referencia.bib` — arquivo para suas referências bibliográficas
+  
 ### 3. Compilação
+
+#### Opção A: Compilação local
 
 - Compile localmente usando `pdflatex`, `xelatex` ou outro compilador LaTeX de sua preferência  
 - Ou use o Overleaf para editar e compilar online  
 
+#### Opção B: Utilizando o Overleaf
+
+1. Clique em **Code > Download ZIP** aqui no GitHub e salve o arquivo em seu computador.
+2. Acesse [overleaf.com](https://www.overleaf.com/) e faça login.
+3. Na página inicial, clique em **New Project > Upload Project**.
+4. Escolha o arquivo `.zip` baixado e aguarde o upload.
+5. O Overleaf irá importar automaticamente todos os arquivos do template para um novo projeto, já pronto para edição online.
+6. Edite conforme necessário e clique em **Recompile** para gerar o PDF.
+
+---
 ---
 
 ## Passo a passo rápido
@@ -50,7 +63,7 @@ Ou faça upload dos arquivos no Overleaf para edição online
 
 Este modelo é uma adaptação do **ModeloINPE_2022**, disponibilizado pelo INPE sob licença **Creative Commons CC BY 4.0**.  
 
-- Autor do modelo simplificado: [Seu Nome]  
+- Autor do modelo simplificado: Prof. Felipe Elias | @proffelipeelias
 - Ano da adaptação: 2025  
 
 Você pode adaptar e redistribuir este modelo, desde que mantenha a atribuição aos autores originais conforme os termos da licença.
@@ -60,6 +73,11 @@ Você pode adaptar e redistribuir este modelo, desde que mantenha a atribuição
 ## Suporte
 
 Dúvidas, sugestões ou problemas? Por favor, abra uma nova **Issue** para que possamos ajudar.
+
+
+Programa Educação
+Extensão Educacional Cientifica, Ambiental e Tecnológica
+CPTEC/INPE
 
 ---
 
