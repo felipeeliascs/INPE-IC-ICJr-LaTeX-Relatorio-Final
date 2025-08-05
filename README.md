@@ -22,10 +22,13 @@ Ou faça upload dos arquivos no Overleaf para edição online
   
 ### 3. Compilação
 
-#### Opção A: Compilação local
+#### Opção A: Copiar projeto direto no Overleaf (recomendado para colaborações)
 
-- Compile localmente usando `pdflatex`, `xelatex` ou outro compilador LaTeX de sua preferência  
-- Ou use o Overleaf para editar e compilar online  
+- Entre na sua conta ou crie uma conta no Overleaf.  
+- Acesse o link do projeto no Overleaf: `https://www.overleaf.com/read/ksktdhwwzzkk#f1b254` 
+- No projeto aberto, vá em **Menu > Actions > Copy Project**.  
+- Edite o nome do novo projeto conforme desejar e confirme a cópia.  
+- Agora você terá sua própria cópia do template para editar, compilar e salvar sem afetar o original.  
 
 #### Opção B: Utilizando o Overleaf
 
@@ -35,6 +38,10 @@ Ou faça upload dos arquivos no Overleaf para edição online
 4. Escolha o arquivo `.zip` baixado e aguarde o upload.
 5. O Overleaf irá importar automaticamente todos os arquivos do template para um novo projeto, já pronto para edição online.
 6. Edite conforme necessário e clique em **Recompile** para gerar o PDF.
+
+#### Opção C: Compilação local
+
+- Compile localmente usando `pdflatex`, `xelatex` ou outro compilador LaTeX de sua preferência  
 
 ---
 ---
