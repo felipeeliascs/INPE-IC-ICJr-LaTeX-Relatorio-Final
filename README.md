@@ -1,92 +1,58 @@
 # Modelo Simplificado INPE para Iniciação Científica
 
-Este repositório oferece um modelo LaTeX simplificado, adaptado a partir do template oficial **ModeloINPE_2022** do INPE (Instituto Nacional de Pesquisas Espaciais) sob licença Creative Commons CC BY 4.0. O objetivo é facilitar a elaboração de relatórios finais para alunos de iniciação científica, simplificando a estrutura e mantendo a formatação acadêmica adequada.
+Este repositório oferece um modelo LaTeX simplificado para relatórios de iniciação científica.
 
----
+O material foi adaptado do [ModeloINPE_2022](https://www.overleaf.com/latex/templates/modeloinpe-2022/bytpkdzvmyqk), criado pelo Instituto Nacional de Pesquisas Espaciais (INPE) e disponibilizado sob a licença [Creative Commons Attribution 4.0 International — CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-## Como usar este template
+O modelo original foi criado para teses e dissertações. Esta versão foi simplificada e adaptada, em 2025, para apoiar a elaboração de relatórios de iniciação científica. Trata-se de uma adaptação independente, sem endosso institucional do INPE.
 
-### 1. Obtenha o template
+## Como usar
 
-- Faça o download do repositório clicando em **Code > Download ZIP** e extraia em seu computador  
-- Ou clone via Git: https://github.com/felipeeliascs/INPE-IC-ICJr-LaTeX-Relatorio-Final.git
-Ou faça upload dos arquivos no Overleaf para edição online
+### 1. Obtenha os arquivos
 
-### 2. Estrutura dos arquivos principais
+Baixe o repositório em **Code > Download ZIP** ou clone:
 
-- `configuracao.tex` — insira título, autores, ano e demais dados iniciais do seu relatório  
-- `publicacao.tex` — arquivo principal que contém a estrutura do relatório, incluindo chamadas aos capítulos  
-- `docs/08_01_capitulo1.tex`, `docs/08_01_capitulo2.tex`, `docs/08_01_capitulo3.tex` — arquivos com o corpo do texto dividido por capítulos  
-- `docs/figuras/` — pasta recomendada para armazenar imagens usadas no relatório  
-- `bib/referencia.bib` — arquivo para suas referências bibliográficas
-  
-### 3. Compilação
+```bash
+git clone https://github.com/felipeeliascs/INPE-IC-ICJr-LaTeX-Relatorio-Final.git
+```
 
-#### Opção A: Copiar projeto direto no Overleaf (recomendado para colaborações)
+Para editar on-line, compacte os arquivos em formato ZIP e importe-os no [Overleaf](https://www.overleaf.com/) em **New Project > Upload Project**.
 
-- Entre na sua conta ou crie uma conta no Overleaf.  
-- Acesse o link do projeto no Overleaf: `https://www.overleaf.com/read/ksktdhwwzzkk#f1b254` 
-- No projeto aberto, vá em **Menu > Actions > Copy Project**.  
-- Edite o nome do novo projeto conforme desejar e confirme a cópia.  
-- Agora você terá sua própria cópia do template para editar, compilar e salvar sem afetar o original.  
+### 2. Conheça os arquivos principais
 
-#### Opção B: Utilizando o Overleaf
+- `configuracao.tex` — título, autores, ano e demais informações iniciais
+- `publicacao.tex` — arquivo principal usado para compilar o documento
+- `docs/08_01_capitulo1.tex`, `docs/08_02_capitulo2.tex` e `docs/08_03_capitulo3.tex` — corpo do texto dividido por capítulos
+- `docs/figuras/` — local recomendado para as imagens do relatório
+- `bib/referencia.bib` — referências bibliográficas
 
-1. Clique em **Code > Download ZIP** aqui no GitHub e salve o arquivo em seu computador.
-2. Acesse [overleaf.com](https://www.overleaf.com/) e faça login.
-3. Na página inicial, clique em **New Project > Upload Project**.
-4. Escolha o arquivo `.zip` baixado e aguarde o upload.
-5. O Overleaf irá importar automaticamente todos os arquivos do template para um novo projeto, já pronto para edição online.
-6. Edite conforme necessário e clique em **Recompile** para gerar o PDF.
+### 3. Compile
 
-#### Opção C: Compilação local
-
-- Compile localmente usando `pdflatex`, `xelatex` ou outro compilador LaTeX de sua preferência  
-
----
----
+No Overleaf, defina `publicacao.tex` como documento principal e use **Recompile**. Para trabalhar localmente, utilize uma distribuição LaTeX compatível com os pacotes empregados pelo modelo.
 
 ## Passo a passo rápido
 
-1. Edite as informações iniciais (titulo, autor, orientador, etc) no `main.tex`  
-2. Escreva os capítulos do relatório seguindo a estrutura comentada no template  
-3. Inclua imagens na pasta indicada e cite-as no texto com o ambiente `figure`  
-4. Adicione referências no arquivo `.bib` e cite no texto usando `\cite{chave}`  
-5. Compile e revise o documento periodicamente  
-6. Solicite feedback do seu orientador antes de finalizar  
+1. Edite título, autor, orientador e demais informações iniciais em `configuracao.tex`.
+2. Use `publicacao.tex` como arquivo principal para compilar o documento.
+3. Escreva os capítulos nos arquivos da pasta `docs/`.
+4. Inclua imagens em `docs/figuras/` e cite-as com o ambiente `figure`.
+5. Adicione referências em `bib/referencia.bib` e cite-as com `\cite{chave}`.
+6. Compile e revise o documento periodicamente.
+7. Solicite a revisão do orientador antes da versão final.
 
----
+## Recomendações
 
-## Dicas importantes
+- Preserve os comandos e a estrutura de formatação do modelo.
+- Leia os comentários presentes nos arquivos antes de alterá-los.
+- Mantenha cópias de segurança e revise o PDF gerado.
+- Use a aba **Issues** para relatar problemas ou sugerir melhorias.
 
-- Use apenas os comandos LaTeX indicados no template para manter a padronização  
-- Salve seu trabalho com frequência  
-- Leia os comentários dentro dos arquivos para orientações detalhadas  
-- Para dúvidas, utilize a aba "Issues" deste repositório  
+## Licença, créditos e alterações
 
----
+Este projeto é uma adaptação do [ModeloINPE_2022](https://www.overleaf.com/latex/templates/modeloinpe-2022/bytpkdzvmyqk), criado pelo Instituto Nacional de Pesquisas Espaciais (INPE) e disponibilizado sob a licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-## Licença e Créditos
+- Adaptação: Prof. Felipe Elias (`@proffelipeelias`)
+- Ano da adaptação: 2025
+- Alterações: simplificação da estrutura e adaptação para relatórios de iniciação científica
 
-Este modelo é uma adaptação do **ModeloINPE_2022**, disponibilizado pelo INPE sob licença **Creative Commons CC BY 4.0**.  
-
-- Autor do modelo simplificado: Prof. Felipe Elias | @proffelipeelias
-- Ano da adaptação: 2025  
-
-Você pode adaptar e redistribuir este modelo, desde que mantenha a atribuição aos autores originais conforme os termos da licença.
-
----
-
-## Suporte
-
-Dúvidas, sugestões ou problemas? Por favor, abra uma nova **Issue** para que possamos ajudar.
-
-
-Programa Educação
-Extensão Educacional Cientifica, Ambiental e Tecnológica
-CPTEC/INPE
-
----
-
-Bons estudos e sucesso no seu relatório!
-
+Os materiais sujeitos a direitos autorais são distribuídos sob a licença CC BY 4.0. Consulte [LICENSE](LICENSE) para os termos e [NOTICE.md](NOTICE.md) para a atribuição detalhada. A licença não concede direitos sobre marcas ou logotipos.
